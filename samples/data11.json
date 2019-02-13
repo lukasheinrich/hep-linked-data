@@ -1,0 +1,27 @@
+{
+    "@type": "dm:types/dataset",
+    "@id": "ay:samples/data2011",
+    "isMC": false,
+    "files": [
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/datafile-001"
+        },
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/datafile-002"
+        },
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/datafile-003"
+        },
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/datafile-004"
+        }
+    ],
+    "metadata": {
+        "name": "data period 2011"
+    }
+}
+

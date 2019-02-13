@@ -1,3 +1,4 @@
 PyLD
 rdflib-jsonld
 rdflib
+click

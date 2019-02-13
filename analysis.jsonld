@@ -1,5 +1,43 @@
 [
   {
+    "@id": "http://analysis.cern.ch/samples/ttbar1jet",
+    "@type": [
+      "http://datamodel.cern.ch/types/dataset"
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
+      {
+        "@value": 123.3
+      }
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/name": [
+      {
+        "@value": "hello"
+      }
+    ],
+    "http://datamodel.cern.ch/file/includesFile": [
+      {
+        "@id": "http://analysis.cern.ch/data/globalfile-1234"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/globalfile-9801"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/globalfile-5678"
+      }
+    ],
+    "http://physics.cern.ch/isMC": [
+      {
+        "@value": true
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/datafile-001",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
     "@id": "http://analysis.cern.ch/samples/higgssample",
     "@type": [
       "http://datamodel.cern.ch/types/dataset"
@@ -21,10 +59,15 @@
       {
         "@id": "http://analysis.cern.ch/data/somethingelse-0"
       }
+    ],
+    "http://physics.cern.ch/isMC": [
+      {
+        "@value": true
+      }
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/data/somethingelse-0",
+    "@id": "http://analysis.cern.ch/data/datafile-003",
     "@type": [
       "http://datamodel.cern.ch/types/file"
     ]
@@ -48,16 +91,15 @@
       {
         "@id": "http://analysis.cern.ch/data/anotherfile-001"
       }
+    ],
+    "http://physics.cern.ch/isMC": [
+      {
+        "@value": true
+      }
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/data/somethingelse-1",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/anotherfile-001",
+    "@id": "http://analysis.cern.ch/data/datafile-004",
     "@type": [
       "http://datamodel.cern.ch/types/file"
     ]
@@ -71,6 +113,24 @@
       {
         "@value": "outputfile"
       }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/datafile-002",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-5678",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/somethingelse-1",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
     ]
   },
   {
@@ -88,40 +148,49 @@
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/samples/ttbar1jet",
+    "@id": "http://analysis.cern.ch/samples/data2011",
     "@type": [
       "http://datamodel.cern.ch/types/dataset"
     ],
-    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
-      {
-        "@value": 123.3
-      }
-    ],
     "http://datamodel.cern.ch/dataset/metadata/name": [
       {
-        "@value": "hello"
+        "@value": "data period 2011"
       }
     ],
     "http://datamodel.cern.ch/file/includesFile": [
       {
-        "@id": "http://analysis.cern.ch/data/globalfile-5678"
+        "@id": "http://analysis.cern.ch/data/datafile-003"
       },
       {
-        "@id": "http://analysis.cern.ch/data/globalfile-1234"
+        "@id": "http://analysis.cern.ch/data/datafile-004"
       },
       {
-        "@id": "http://analysis.cern.ch/data/globalfile-9801"
+        "@id": "http://analysis.cern.ch/data/datafile-001"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/datafile-002"
+      }
+    ],
+    "http://physics.cern.ch/isMC": [
+      {
+        "@value": false
       }
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/data/globalfile-1234",
+    "@id": "http://analysis.cern.ch/data/anotherfile-001",
     "@type": [
       "http://datamodel.cern.ch/types/file"
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/data/globalfile-5678",
+    "@id": "http://analysis.cern.ch/data/somethingelse-0",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-1234",
     "@type": [
       "http://datamodel.cern.ch/types/file"
     ]

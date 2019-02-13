@@ -2,6 +2,8 @@
   "@version": 1.1,
   "ay": "http://analysis.cern.ch/",
   "dm": "http://datamodel.cern.ch/",
+  "ph": "http://physics.cern.ch/",
+  "id": "@id",
   "metadata": "@nest",
   "name": {"@id": "dm:dataset/metadata/name", "@nest": "metadata"},
   "xsec": {"@id": "dm:dataset/metadata/crosssection", "@nest": "metadata"},
@@ -13,5 +15,6 @@
   "groupsamples": {
     "@id": "dm:group/includesSample",
     "@container": "@set"
-  }
+  },
+  "isMC": "ph:isMC"
 }

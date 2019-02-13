@@ -1,6 +1,7 @@
 {
     "@type": "dm:types/dataset",
     "@id": "ay:samples/higgssample",
+    "isMC": true,
     "files": [
         {
             "@type": "dm:types/file",
