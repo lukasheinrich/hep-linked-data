@@ -1,5 +1,115 @@
 [
   {
+    "@id": "http://analysis.cern.ch/data/datafile-003",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/groups/data",
+    "@type": [
+      "http://datamodel.cern.ch/types/samplegroup"
+    ],
+    "http://datamodel.cern.ch/group/includesSample": [
+      {
+        "@id": "http://analysis.cern.ch/samples/data2011"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/samples/data2011",
+    "@type": [
+      "http://datamodel.cern.ch/types/dataset"
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/name": [
+      {
+        "@value": "data period 2011"
+      }
+    ],
+    "http://datamodel.cern.ch/file/includesFile": [
+      {
+        "@id": "http://analysis.cern.ch/data/datafile-001"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/datafile-004"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/datafile-003"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/datafile-002"
+      }
+    ],
+    "http://physics.cern.ch/isMC": [
+      {
+        "@value": false
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/somethingelse-1",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-9801",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ],
+    "http://datamodel.cern.ch/label": [
+      {
+        "@value": "outputfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/samples/ttbar2jet",
+    "@type": [
+      "http://datamodel.cern.ch/types/dataset"
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
+      {
+        "@value": 58.0
+      }
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/name": [
+      {
+        "@value": "ttbar with 2 jets"
+      }
+    ],
+    "http://datamodel.cern.ch/file/includesFile": [
+      {
+        "@id": "http://analysis.cern.ch/data/anotherfile-001"
+      }
+    ],
+    "http://physics.cern.ch/isMC": [
+      {
+        "@value": true
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-1234",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/groups/ttbar",
+    "@type": [
+      "http://datamodel.cern.ch/types/samplegroup"
+    ],
+    "http://datamodel.cern.ch/group/includesSample": [
+      {
+        "@id": "http://analysis.cern.ch/samples/ttbar1jet"
+      },
+      {
+        "@id": "http://analysis.cern.ch/samples/ttbar2jet"
+      }
+    ]
+  },
+  {
     "@id": "http://analysis.cern.ch/samples/ttbar1jet",
     "@type": [
       "http://datamodel.cern.ch/types/dataset"
@@ -16,13 +126,13 @@
     ],
     "http://datamodel.cern.ch/file/includesFile": [
       {
-        "@id": "http://analysis.cern.ch/data/globalfile-1234"
+        "@id": "http://analysis.cern.ch/data/globalfile-5678"
       },
       {
         "@id": "http://analysis.cern.ch/data/globalfile-9801"
       },
       {
-        "@id": "http://analysis.cern.ch/data/globalfile-5678"
+        "@id": "http://analysis.cern.ch/data/globalfile-1234"
       }
     ],
     "http://physics.cern.ch/isMC": [
@@ -32,7 +142,42 @@
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/data/datafile-001",
+    "@id": "http://analysis.cern.ch/data/somethingelse-0",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/anotherfile-001",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-5678",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/datafile-002",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/groups/higgs",
+    "@type": [
+      "http://datamodel.cern.ch/types/samplegroup"
+    ],
+    "http://datamodel.cern.ch/group/includesSample": [
+      {
+        "@id": "http://analysis.cern.ch/samples/higgssample"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/datafile-004",
     "@type": [
       "http://datamodel.cern.ch/types/file"
     ]
@@ -67,130 +212,7 @@
     ]
   },
   {
-    "@id": "http://analysis.cern.ch/data/datafile-003",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/samples/ttbar2jet",
-    "@type": [
-      "http://datamodel.cern.ch/types/dataset"
-    ],
-    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
-      {
-        "@value": 58.0
-      }
-    ],
-    "http://datamodel.cern.ch/dataset/metadata/name": [
-      {
-        "@value": "ttbar with 2 jets"
-      }
-    ],
-    "http://datamodel.cern.ch/file/includesFile": [
-      {
-        "@id": "http://analysis.cern.ch/data/anotherfile-001"
-      }
-    ],
-    "http://physics.cern.ch/isMC": [
-      {
-        "@value": true
-      }
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/datafile-004",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/globalfile-9801",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ],
-    "http://datamodel.cern.ch/label": [
-      {
-        "@value": "outputfile"
-      }
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/datafile-002",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/globalfile-5678",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/somethingelse-1",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/groups/ttbar",
-    "@type": [
-      "http://datamodel.cern.ch/types/samplegroup"
-    ],
-    "http://datamodel.cern.ch/group/includesSample": [
-      {
-        "@id": "http://analysis.cern.ch/samples/ttbar2jet"
-      },
-      {
-        "@id": "http://analysis.cern.ch/samples/ttbar1jet"
-      }
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/samples/data2011",
-    "@type": [
-      "http://datamodel.cern.ch/types/dataset"
-    ],
-    "http://datamodel.cern.ch/dataset/metadata/name": [
-      {
-        "@value": "data period 2011"
-      }
-    ],
-    "http://datamodel.cern.ch/file/includesFile": [
-      {
-        "@id": "http://analysis.cern.ch/data/datafile-003"
-      },
-      {
-        "@id": "http://analysis.cern.ch/data/datafile-004"
-      },
-      {
-        "@id": "http://analysis.cern.ch/data/datafile-001"
-      },
-      {
-        "@id": "http://analysis.cern.ch/data/datafile-002"
-      }
-    ],
-    "http://physics.cern.ch/isMC": [
-      {
-        "@value": false
-      }
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/anotherfile-001",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/somethingelse-0",
-    "@type": [
-      "http://datamodel.cern.ch/types/file"
-    ]
-  },
-  {
-    "@id": "http://analysis.cern.ch/data/globalfile-1234",
+    "@id": "http://analysis.cern.ch/data/datafile-001",
     "@type": [
       "http://datamodel.cern.ch/types/file"
     ]

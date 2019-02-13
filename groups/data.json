@@ -1,0 +1,7 @@
+{
+  "@id": "ay:groups/data",
+  "@type": "dm:types/samplegroup",
+  "groupsamples": [
+    {"@id":"ay:samples/data2011"}
+  ]
+}

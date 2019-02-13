@@ -1,0 +1,7 @@
+{
+  "@id": "ay:groups/higgs",
+  "@type": "dm:types/samplegroup",
+  "groupsamples": [
+    {"@id":"ay:samples/higgssample"}
+  ]
+}
