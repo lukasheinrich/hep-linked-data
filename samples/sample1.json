@@ -1,0 +1,23 @@
+{
+    "@type": "dm:types/dataset",
+    "@id": "ay:samples/ttbarsample",
+    "files": [
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/globalfile-1234"
+        },
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/globalfile-5678"
+        },
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/globalfile-9801",
+            "label": "outputfile"
+        }
+    ],
+    "metadata": {
+        "name": "hello",
+        "xsec": 123.3
+    }
+}

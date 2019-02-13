@@ -1,0 +1,18 @@
+{
+    "@type": "dm:types/dataset",
+    "@id": "ay:samples/higgssample",
+    "files": [
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/somethingelse-0"
+        },
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/somethingelse-1"
+        }
+    ],
+    "metadata": {
+        "name": "higgs",
+        "xsec": 0.002
+    }
+}

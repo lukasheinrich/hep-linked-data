@@ -1,0 +1,13 @@
+{
+  "@version": 1.1,
+  "ay": "analysis://",
+  "dm": "datamodel://",
+  "metadata": "@nest",
+  "name": {"@id": "dm:dataset/metadata/name", "@nest": "metadata"},
+  "xsec": {"@id": "dm:dataset/metadata/crosssection", "@nest": "metadata"},
+  "files": {
+    "@id": "dm:file/includesFile",
+    "@container": "@set"
+  },
+  "label": "datamodel://label"
+}
