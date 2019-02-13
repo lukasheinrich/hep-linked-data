@@ -1,0 +1,14 @@
+{
+    "@type": "dm:types/dataset",
+    "@id": "ay:samples/ttbar2jet",
+    "files": [
+        {
+            "@type": "dm:types/file",
+            "@id": "ay:data/anotherfile-001"
+        }
+    ],
+    "metadata": {
+        "name": "ttbar with 2 jets",
+        "xsec": 58.0
+    }
+}

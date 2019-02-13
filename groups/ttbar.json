@@ -1,0 +1,8 @@
+{
+  "@id": "ay:groups/ttbar",
+  "@type": "dm:types/samplegroup",
+  "groupsamples": [
+    {"@id":"ay:samples/ttbar1jet"},
+    {"@id":"ay:samples/ttbar2jet"}
+  ]
+}

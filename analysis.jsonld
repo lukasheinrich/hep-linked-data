@@ -1,0 +1,129 @@
+[
+  {
+    "@id": "http://analysis.cern.ch/samples/higgssample",
+    "@type": [
+      "http://datamodel.cern.ch/types/dataset"
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
+      {
+        "@value": 0.002
+      }
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/name": [
+      {
+        "@value": "higgs"
+      }
+    ],
+    "http://datamodel.cern.ch/file/includesFile": [
+      {
+        "@id": "http://analysis.cern.ch/data/somethingelse-1"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/somethingelse-0"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/somethingelse-0",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/samples/ttbar2jet",
+    "@type": [
+      "http://datamodel.cern.ch/types/dataset"
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
+      {
+        "@value": 58.0
+      }
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/name": [
+      {
+        "@value": "ttbar with 2 jets"
+      }
+    ],
+    "http://datamodel.cern.ch/file/includesFile": [
+      {
+        "@id": "http://analysis.cern.ch/data/anotherfile-001"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/somethingelse-1",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/anotherfile-001",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-9801",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ],
+    "http://datamodel.cern.ch/label": [
+      {
+        "@value": "outputfile"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/groups/ttbar",
+    "@type": [
+      "http://datamodel.cern.ch/types/samplegroup"
+    ],
+    "http://datamodel.cern.ch/group/includesSample": [
+      {
+        "@id": "http://analysis.cern.ch/samples/ttbar2jet"
+      },
+      {
+        "@id": "http://analysis.cern.ch/samples/ttbar1jet"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/samples/ttbar1jet",
+    "@type": [
+      "http://datamodel.cern.ch/types/dataset"
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/crosssection": [
+      {
+        "@value": 123.3
+      }
+    ],
+    "http://datamodel.cern.ch/dataset/metadata/name": [
+      {
+        "@value": "hello"
+      }
+    ],
+    "http://datamodel.cern.ch/file/includesFile": [
+      {
+        "@id": "http://analysis.cern.ch/data/globalfile-5678"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/globalfile-1234"
+      },
+      {
+        "@id": "http://analysis.cern.ch/data/globalfile-9801"
+      }
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-1234",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  },
+  {
+    "@id": "http://analysis.cern.ch/data/globalfile-5678",
+    "@type": [
+      "http://datamodel.cern.ch/types/file"
+    ]
+  }
+]

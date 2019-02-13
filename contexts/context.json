@@ -9,5 +9,9 @@
     "@id": "dm:file/includesFile",
     "@container": "@set"
   },
-  "label": "dm:label"
+  "label": "dm:label",
+  "groupsamples": {
+    "@id": "dm:group/includesSample",
+    "@container": "@set"
+  }
 }

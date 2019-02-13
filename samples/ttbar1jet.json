@@ -1,6 +1,6 @@
 {
     "@type": "dm:types/dataset",
-    "@id": "ay:samples/ttbarsample",
+    "@id": "ay:samples/ttbar1jet",
     "files": [
         {
             "@type": "dm:types/file",
